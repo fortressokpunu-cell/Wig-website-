@@ -25,5 +25,28 @@
     <a class="button" href="#">Chat on WhatsApp</a>
   </section>
 
+  <section class="wigs" id="wigs">
+    <h2>Our Wigs</h2>
+    <div class="wig-grid" id="wig-grid"></div>
+  </section>
+
+  <script src="wigs.js"></script>
+  <script>
+    const grid = document.getElementById("wig-grid");
+    wigs.forEach(function (wig) {
+      let photo = "Photo coming soon";
+      if (wig.image) {
+        photo = '<img src="images/' + wig.image + '" alt="' + wig.name + '">';
+      }
+      grid.innerHTML +=
+        '<div class="wig-card">' +
+          '<div class="wig-photo">' + photo + '</div>' +
+          '<h3>' + wig.name + '</h3>' +
+          '<p class="wig-price">' + wig.price + '</p>' +
+        '</div>';
+    });
+  </script>
+
 </body>
 </html>
+
