@@ -1,5 +1,3 @@
 const wigs = [
-  { name: "Sample Wig 1", price: "Price here", image: "" },
-  { name: "Sample Wig 2", price: "Price here", image: "" },
-  { name: "Sample Wig 3", price: "Price here", image: "" }
+  { name: "Natural Colour Bone Straight 30 inches", price: "Ask on WhatsApp", image: "6a2a2506-ed9f-41fe-ab05-38d4e985be87.jpeg" }
 ];
