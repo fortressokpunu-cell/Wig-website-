@@ -119,6 +119,44 @@ body {
   font-weight: bold;
 }
 
+.services {
+  padding: 40px 16px;
+  background: #fff;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #111;
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.service-card h3 {
+  color: #d4af37;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
 @media (min-width: 700px) {
   .wig-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -126,4 +164,8 @@ body {
   .wig-photo {
     height: 220px;
   }
+  .service-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
+
