@@ -157,6 +157,87 @@ body {
   color: #ddd;
 }
 
+.contact {
+  padding: 40px 16px;
+  background: #faf7f0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto 28px;
+}
+
+.shop-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shop-card h3 {
+  color: #b8860b;
+  margin-bottom: 6px;
+}
+
+.whatsapp-choice {
+  max-width: 400px;
+  margin: 0 auto 24px;
+}
+
+.whatsapp-choice summary {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.whatsapp-choice summary::-webkit-details-marker {
+  display: none;
+}
+
+.choice-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.choice-links a {
+  display: block;
+  background: #111;
+  color: #d4af37;
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .whatsapp-choice {
+  margin: 0 auto;
+}
+
+.hero .choice-links a {
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+}
+
+.social a {
+  color: #b8860b;
+  font-weight: bold;
+}
+
 @media (min-width: 700px) {
   .wig-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -167,5 +248,9 @@ body {
   .service-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+  .shop-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
 
